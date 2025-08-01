@@ -1,0 +1,36 @@
+body, html{
+  margin:0;
+  padding:0;
+  height:100%;
+  font-family:Arial, sans-serif;
+}
+
+.container{
+  display:flex;
+  justify-content:center;
+  align-items:stretch;
+  padding:50px 0;
+  min-height:100vh;
+  text-align:center;
+}
+
+.section{
+  width:25%;
+  padding:20px;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+}
+
+.left-align{
+  text-align:left;
+  align-items:flex-start;
+}
+
+.divider{
+  width:5px;
+  height:700px; 
+  background-color:green;
+  align-self:center; 
+}
+
